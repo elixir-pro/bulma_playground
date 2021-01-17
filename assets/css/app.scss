@@ -2,6 +2,11 @@
 @import "../node_modules//bulma/bulma.sass";
 @import "../node_modules/nprogress/nprogress.css";
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 /* LiveView specific classes for your customizations */
 .phx-no-feedback.invalid-feedback,
